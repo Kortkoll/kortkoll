@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,cyrillic-ext);
+
+.fill {
+	background: linear-gradient(#28333F, #385E80);
+	width:100%;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#info {
+	max-width:500px;
+}
+
+#info p {
+	font-weight:300;
+	font-size:12pt;
+}
+
+#ios {
+	margin-top:20px;
+	width:234px;
+}
+
+a#ios-badge {
+	display:inline-block;
+	height:76px;
+	width:234px;
+	background-repeat:no-repeat;
+	background-size: 234px 76px;
+	background-image:url('AppStore@2x.png');	
+}
+
+#ios-stars {
+	margin-top:24px;
+	height:22px;
+	width:144px;
+	background-repeat:no-repeat;
+	background-size: 144px 22px;
+	background-image:url('Stars@2x.png');	
+}
+
+#ios-rating {
+	font-weight:300;
+	margin-top:8px;
+	font-size:10pt;
+}
+
+#contact {
+	width:300px
+}
+ 
+.bar-header {
+	font-weight:600;
+	font-size:10pt;
+}
+
+#contact-text {
+	margin-top:20px;
+}
+
+#contact-bar {
+	height:32px;
+	width:251px;
+	background-repeat:no-repeat;
+	background-size: 251px 32px;
+	background-image:url('contact_bar.png');	
+}
+
+#contact-icons {
+	margin:23px 0px 0px 0px;
+}
+
+.contact-icon {
+	display:inline-block;
+	height:60px;
+	width:60px;
+	background-repeat:no-repeat;
+	background-size: 60px 60px;
+}
+
+#contact-fb {
+	background-image:url('FB@2x.png');	
+	display:inline-block;
+}
+
+#contact-twitter {
+	background-image:url('Twitter@2x.png');	
+	display:inline-block;
+	margin-left:55px;
+}
+
+#contact-twitter:hover {
+	background-image:url('TwitterHoover@2x.png');
+}
+
+#contact-mail {
+	background-image:url('Mail@2x.png');	
+	display:inline-block;
+	margin-left:55px;
+}
+
+#copy {
+	font-weight:300;
+	font-size:8pt;
+	margin-top:100px;
+	margin-bottom:20px;
+}
+
