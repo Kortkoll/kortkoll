@@ -7,6 +7,28 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+#logo-wrapper {
+	margin-top:40px;
+	max-width:240px;
+}
+
+a#logo {
+	display:inline-block;
+	height:60px;
+	width:72px;
+	background-repeat:no-repeat;
+	background-size: 72px 60px;
+	background-image:url('Logo@2x.png');	
+}
+
+#logo-wrapper h1 {
+	display:inline-block;
+	position:relative;
+	top:-14px;
+	font-size:30pt;
+	margin-left:20px;
+}
+
 #info {
 	margin-top:20px;
 	max-width:500px;
