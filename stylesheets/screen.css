@@ -9,14 +9,22 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 #phone {
+  display: inline-block;
   background-image: url("Phone.png");
   background-repeat: no-repeat;
   width: 437px;
   height: 676px; }
+  @media (max-width: 992px) {
+    #phone {
+      display: none !important; } }
   @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
     #phone {
       background-image: url("Phone@2x.png");
       background-size: 437px 676px; } }
+
+@media (min-width: 993px) {
+  #text-wrapper {
+    display: inline-block; } }
 
 #logo-wrapper {
   margin-top: 40px;
