@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,cyrillic-ext);
+
+@mixin background-image($file, $width, $height) {
+  background-image: url($file + '.png');
+	background-repeat: no-repeat;
+	width: $width;
+	height: $height;
+  
+@media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+    & {
+      background-image: url($file + '@2x.png');
+      background-size: $width $height;
+    }
+  }
+}
+
+body {
+	background: linear-gradient(#28333F, #385E80);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+.fill {
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#phone {
+	@include background-image('Phone', 437px, 676px);
+}
+
+#logo-wrapper {
+	margin-top:40px;
+	max-width:240px;
+}
+
+a#logo {
+	display:inline-block;
+	@include background-image('Logo', 72px, 60px);
+}
+
+#logo-wrapper h1 {
+	display:inline-block;
+	position:relative;
+	top:-14px;
+	font-size:30pt;
+	margin-left:20px;
+}
+
+#info {
+	margin-top:20px;
+	max-width:500px;
+}
+
+#info p {
+	font-weight:300;
+	font-size:12pt;
+}
+
+#ios {
+	margin-top:20px;
+	width:234px;
+}
+
+a#ios-badge {
+	display:inline-block;
+	@include background-image('AppStore', 234px, 76px);
+}
+
+#ios-stars {
+	margin-top:20px;
+	@include background-image('Stars', 144px, 22px);
+}
+
+#ios-rating {
+	font-weight:300;
+	margin-top:8px;
+	font-size:10pt;
+}
+
+#contact {
+	width:300px
+}
+ 
+.bar-header {
+	font-weight:600;
+	font-size:10pt;
+}
+
+#contact-text {
+	margin-top:30px;
+}
+
+#contact-bar {
+	@include background-image('Bar', 251px, 32px);
+}
+
+#contact-icons {
+	margin:23px 0px 0px 0px;
+}
+
+.contact-icon {
+	display:inline-block;
+}
+
+#contact-fb {
+	@include background-image('FB', 60px, 60px);
+}
+
+#contact-twitter {
+	@include background-image('Twitter', 60px, 60px);
+	margin-left:55px;
+}
+
+#contact-mail {
+	@include background-image('Mail', 60px, 60px);
+	margin-left:55px;
+}
+
+#copy {
+	font-weight:300;
+	font-size:8pt;
+	margin-top:100px;
+	margin-bottom:20px;
+}
+
