@@ -31,6 +31,7 @@ body {
 	@media (max-width:$lol) {
 		display:none!important;
 	}
+	z-index:-1;
 	display:inline-block;
 	@include background-image('Phone', 437px, 676px);
 	position:relative;

@@ -9,6 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 #phone {
+  z-index: -1;
   display: inline-block;
   background-image: url("Phone.png");
   background-repeat: no-repeat;
