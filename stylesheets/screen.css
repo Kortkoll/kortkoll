@@ -7,6 +7,9 @@ body {
 .fill {
   color: white;
   font-family: 'Open Sans', sans-serif; }
+  @media (min-width: 993px) {
+    .fill {
+      width: 992px; } }
 
 #phone {
   z-index: -1;
@@ -25,6 +28,19 @@ body {
     #phone {
       background-image: url("Phone@2x.png");
       background-size: 437px 676px; } }
+
+#card {
+  background-image: url("Card.png");
+  background-repeat: no-repeat;
+  width: 273px;
+  height: 446px;
+  position: relative;
+  top: 185px;
+  left: -105px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+    #card {
+      background-image: url("Card@2x.png");
+      background-size: 273px 446px; } }
 
 @media (min-width: 993px) {
   #text-wrapper {
@@ -64,7 +80,7 @@ a#logo {
   font-size: 12pt; }
 
 #ios {
-  margin-top: 20px;
+  margin-top: 40px;
   width: 234px; }
 
 a#ios-badge {

@@ -25,6 +25,10 @@ body {
 .fill {
 	color:white;
 	font-family: 'Open Sans', sans-serif;
+	
+	@media (min-width:$lol+1px) {
+		width:$lol;
+	}
 }
 
 #phone {
@@ -37,6 +41,13 @@ body {
 	position:relative;
 	top:60px;
 	left:110px;
+}
+
+#card {
+	@include background-image('Card', 273px, 446px);
+	position:relative;
+	top:185px;
+	left:-105px;
 }
 
 #text-wrapper {
@@ -77,7 +88,7 @@ a#logo {
 }
 
 #ios {
-	margin-top:20px;
+	margin-top:40px;
 	width:234px;
 }
 
