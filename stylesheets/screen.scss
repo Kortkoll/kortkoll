@@ -33,11 +33,16 @@ body {
 	}
 	display:inline-block;
 	@include background-image('Phone', 437px, 676px);
+	position:relative;
+	top:60px;
+	left:110px;
 }
 
 #text-wrapper {
 	@media(min-width:$lol+1px) {
 		display:inline-block;
+		margin-top:60px;
+		vertical-align:top;
 	}
 }
 
@@ -61,6 +66,7 @@ a#logo {
 
 #info {
 	margin-top:20px;
+	padding: 0px 15px 0px 15px;
 	max-width:500px;
 }
 
