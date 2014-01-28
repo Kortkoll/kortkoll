@@ -76,6 +76,34 @@ body {
     left: -230px;
     -webkit-animation-timing-function: ease-in; } }
 
+#subway {
+  background-image: url("Subway.png");
+  background-repeat: no-repeat;
+  width: 728px;
+  height: 59px;
+  -webkit-animation: subway-animation 10s infinite;
+  position: relative;
+  top: 257px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+    #subway {
+      background-image: url("Subway@2x.png");
+      background-size: 728px 59px; } }
+
+@-webkit-keyframes subway-animation {
+  0% {
+    left: -728px; }
+
+  35% {
+    left: -500px;
+    -webkit-animation-timing-function: ease-out; }
+
+  50% {
+    left: -500px; }
+
+  100% {
+    left: 240px;
+    -webkit-animation-timing-function: ease-in; } }
+
 #card {
   background-image: url("Card.png");
   background-repeat: no-repeat;
@@ -128,7 +156,11 @@ a#logo {
 
 #info a {
   color: white;
-  font-weight: 600; }
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+#info a:hover {
+  text-decoration: none; }
 
 #ios {
   margin-top: 40px;
