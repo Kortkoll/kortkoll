@@ -48,6 +48,34 @@ body {
       background-image: url("City@2x.png");
       background-size: 240px 426px; } }
 
+#bus {
+  background-image: url("Bus.png");
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 59px;
+  -webkit-animation: bus-animation 8s infinite;
+  position: relative;
+  top: 197px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+    #bus {
+      background-image: url("Bus@2x.png");
+      background-size: 230px 59px; } }
+
+@-webkit-keyframes bus-animation {
+  0% {
+    left: 240px; }
+
+  35% {
+    left: 0px;
+    -webkit-animation-timing-function: ease-out; }
+
+  50% {
+    left: 0px; }
+
+  100% {
+    left: -230px;
+    -webkit-animation-timing-function: ease-in; } }
+
 #card {
   background-image: url("Card.png");
   background-repeat: no-repeat;

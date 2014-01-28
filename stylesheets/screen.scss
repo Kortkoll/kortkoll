@@ -60,6 +60,30 @@ body {
 	left:37px;
 }
 
+#bus {
+	@include background-image('Bus', 230px, 59px);
+	-webkit-animation:bus-animation 8s infinite;
+	position:relative;
+	top:197px;
+}
+
+@-webkit-keyframes bus-animation {
+	0% {
+	left:240px;
+	}
+	35%  {
+	left:0px;
+	-webkit-animation-timing-function: ease-out;
+	}
+	50% {
+	left:0px;
+	}
+	100%  {
+	left:-230px;
+	-webkit-animation-timing-function: ease-in;
+	}
+}
+
 #card {
 	@include background-image('Card', 273px, 446px);
 	position:relative;
