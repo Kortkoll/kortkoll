@@ -69,17 +69,17 @@ body {
 
 @-webkit-keyframes bus-animation {
 	0% {
-	left:240px;
+	-webkit-transform: translate(240px);
 	}
 	35%  {
-	left:0px;
+	-webkit-transform: translate(0px);
 	-webkit-animation-timing-function: ease-out;
 	}
 	50% {
-	left:0px;
+	-webkit-transform: translate(0px);
 	}
 	100%  {
-	left:-230px;
+	-webkit-transform: translate(-230px);
 	-webkit-animation-timing-function: ease-in;
 	}
 }
@@ -92,17 +92,17 @@ body {
 }
 
 @-webkit-keyframes subway-animation {	0% {
-	left:-728px;
+	-webkit-transform: translate(-728px);
 	}
 	35%  {
-	left:-500px;
+	-webkit-transform: translate(-500px);
 	-webkit-animation-timing-function: ease-out;
 	}
 	50% {
-	left:-500px;
+	-webkit-transform: translate(-500px);
 	}
 	100%  {
-	left:240px;
+	-webkit-transform: translate(-240px);
 	-webkit-animation-timing-function: ease-in;
 	}
 }
