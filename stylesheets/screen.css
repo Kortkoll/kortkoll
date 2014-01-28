@@ -33,11 +33,20 @@ body {
       background-image: url("Phone@2x.png");
       background-size: 437px 676px; } }
 
-#movie_hype_container {
+#movie {
+  background-image: url("City.png");
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 426px;
   z-index: -1;
   position: relative;
+  overflow: hidden;
   top: 88px;
   left: 37px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+    #movie {
+      background-image: url("City@2x.png");
+      background-size: 240px 426px; } }
 
 #card {
   background-image: url("Card.png");

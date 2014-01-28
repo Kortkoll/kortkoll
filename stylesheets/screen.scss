@@ -51,9 +51,11 @@ body {
 	left:110px;
 }
 
-#movie_hype_container {
+#movie {
+	@include background-image('City', 240px, 426px);
 	z-index:-1;
 	position:relative;
+	overflow:hidden;
 	top:88px;
 	left:37px;
 }
