@@ -51,10 +51,17 @@ body {
 	left:110px;
 }
 
+#movie_hype_container {
+	z-index:-1;
+	position:relative;
+	top:88px;
+	left:37px;
+}
+
 #card {
 	@include background-image('Card', 273px, 446px);
 	position:relative;
-	top:185px;
+	top:-241px;
 	left:-105px;
 }
 

@@ -33,13 +33,19 @@ body {
       background-image: url("Phone@2x.png");
       background-size: 437px 676px; } }
 
+#movie_hype_container {
+  z-index: -1;
+  position: relative;
+  top: 88px;
+  left: 37px; }
+
 #card {
   background-image: url("Card.png");
   background-repeat: no-repeat;
   width: 273px;
   height: 446px;
   position: relative;
-  top: 185px;
+  top: -241px;
   left: -105px; }
   @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
     #card {
