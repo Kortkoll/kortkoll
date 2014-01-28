@@ -86,12 +86,13 @@ body {
 
 #subway {
 	@include background-image('Subway', 728px, 59px);
-	-webkit-animation:subway-animation 10s infinite;
+	-webkit-animation:subway-animation 13s infinite;
 	position:relative;
 	top:257px;
 }
 
-@-webkit-keyframes subway-animation {	0% {
+@-webkit-keyframes subway-animation {
+	0% {
 	-webkit-transform: translate(-728px);
 	}
 	35%  {
@@ -102,7 +103,7 @@ body {
 	-webkit-transform: translate(-500px);
 	}
 	100%  {
-	-webkit-transform: translate(-240px);
+	-webkit-transform: translate(395px);
 	-webkit-animation-timing-function: ease-in;
 	}
 }
