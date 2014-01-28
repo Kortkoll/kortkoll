@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600italic,700&subset=latin,cyrillic-ext);
 body {
   background: linear-gradient(#28333f, #385e80);
   background-repeat: no-repeat;
@@ -6,7 +6,11 @@ body {
 
 .fill {
   color: white;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
   @media (min-width: 993px) {
     .fill {
       width: 992px; } }
@@ -78,6 +82,10 @@ a#logo {
 #info p {
   font-weight: 300;
   font-size: 12pt; }
+
+#info a {
+  color: white;
+  font-weight: 600; }
 
 #ios {
   margin-top: 40px;
