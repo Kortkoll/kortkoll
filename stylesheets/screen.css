@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600italic,700&subset=latin,cyrillic-ext);
 body {
+  background: #385E80;
   background: linear-gradient(#28333f, #385e80);
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -75,7 +76,6 @@ body {
   100% {
     -webkit-transform: translate(-230px);
     -webkit-animation-timing-function: ease-in; } }
-
 #subway {
   background-image: url("Subway.png");
   background-repeat: no-repeat;
@@ -103,7 +103,6 @@ body {
   100% {
     -webkit-transform: translate(395px);
     -webkit-animation-timing-function: ease-in; } }
-
 #card {
   background-image: url("Card.png");
   background-repeat: no-repeat;
